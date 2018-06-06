@@ -1,0 +1,6 @@
+.h(text="POST")
+.d()
+.s()
+.d()
+.b(name="Home",link="home.php",hidden="<?php echo $_POST['username'];?>")
+

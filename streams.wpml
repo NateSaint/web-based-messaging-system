@@ -1,0 +1,7 @@
+.h(text="Select a stream to view")
+.d()
+.i(action="checkstreams.php",text="Select Stream: ",name="stream",value="",hidden="<?php echo $_POST['username']; ?>")
+.d()
+.4()
+.d()
+.b(name="Home",link="home.php",hidden="<?php echo $_POST['username']; ?>")

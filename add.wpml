@@ -1,0 +1,5 @@
+.h(text="Add Author")
+.d()
+.1()
+.d()
+.b(name="Home",link="home.php",hidden="<?php echo $_POST['username']; ?>")

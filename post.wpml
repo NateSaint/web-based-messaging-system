@@ -1,0 +1,6 @@
+.h(text="Post")
+.d()
+.t(text="Currently logged in as: <?php echo $_POST['username']; ?><br>")
+.o()
+.d()
+.i(action="submitpost.php",text="Stream: ",name="stream",value="",hidden="<?php echo $_POST['username'];?>",field="userpost")

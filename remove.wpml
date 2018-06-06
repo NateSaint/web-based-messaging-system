@@ -1,0 +1,5 @@
+.h(text="Remove Author")
+.d()
+.2()
+.d()
+.b(name="Home",link="home.php",hidden="<?php echo $_POST['username']; ?>")

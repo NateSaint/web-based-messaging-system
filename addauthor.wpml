@@ -1,0 +1,7 @@
+.h(text="Add or Remove Author")
+.a()
+.d()
+.i(action="add.php",hidden="<?php echo $_POST['username']; ?>",text="Add Author: ",name="author",value="",text="Streams: ",name="streams",value="")
+.d()
+.i(action="remove.php",hidden="<?php echo $_POST['username']; ?>",text="Remove Author: ",name="author",value="",text="Streams: ",name="streams",value="")
+.d()
